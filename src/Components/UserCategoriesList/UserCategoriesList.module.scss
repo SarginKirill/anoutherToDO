@@ -1,0 +1,33 @@
+.row_input{
+    text-align: center;
+    margin: 10px;
+
+    input{
+        font-size: 14px;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+}
+
+li {
+    border-bottom: 1px solid #000;
+    margin-bottom: 15px;
+    margin-right: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    cursor: pointer;
+
+        .del{
+        font-size: 12px;
+        color: #FF5C5C;
+        }
+}
+
+.active{
+    border-bottom: 2px solid #468BF3;
+    font-weight: bold;
+}

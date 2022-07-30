@@ -1,0 +1,44 @@
+.TaskList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    flex: auto;
+
+    .row_input{
+        display: flex;
+        align-items: flex-end;
+
+        input{
+            box-sizing: border-box;
+            margin: 20px 10px 0 0;
+        }
+    }
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .delete{
+        color: #FF5C5C;
+        font-size: 18px;
+        border: none;
+        margin: 0;
+
+        span{
+            position: relative;
+            bottom: 2px;
+        }
+    }
+
+    .task{
+        display: flex;
+        gap: 10px;
+}
+}

@@ -1,0 +1,28 @@
+
+.form{
+    text-align: left;
+    min-width: 400px;
+
+
+    label {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .btnLine{
+        display: flex;
+        align-items: flex-end;
+        align-items: center;
+        margin-top: 40px;
+
+        span{
+            margin-left: 30px;
+
+            a{
+                color: #000;
+                text-decoration: none;
+                border-bottom: 1px solid #000;
+            }
+        }
+    }
+}

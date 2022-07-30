@@ -1,0 +1,14 @@
+
+//TASK ACTIONS
+export const ADD_TODO = 'ADD_TODO'
+export const TOGGLE_TODO = 'TOGGLE_TODO'
+export const REMOVE_TODO = 'REMOVE_TODO'
+
+
+//USERS ACTIONS
+export const ADD_USER = 'ADD_USER'
+export const LOGIN_USER = 'LOGIN_USER'
+export const EXIT_USER = 'EXIT_USER'
+export const ADD_CATEGORY = 'ADD_CATEGORY'
+export const DELETE_CATEGORY = 'DELETE_CATEGORY'
+export const FILTER_CATEGORY = 'FILTER_CATEGORY'
