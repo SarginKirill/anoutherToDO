@@ -5,7 +5,7 @@ import Registration from './Pages/Registration/Registration';
 import HomePage from './Pages/HomePage/HomePage';
 
 
-
+// Привет:)
 
 function App() {
 
